@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stopwatch</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    <div class="stopwatch">
+        <div class="time">
+            00:00.00
+        </div>
+        <div class="controls">
+            <button accesskey="s" id="start_stop">Start</button>
+            <button accesskey="r" id="reset_lap">Reset</button>
+        </div>
+        <div class="shortcuts">
+            <span>(ALT + S)</span>
+            <span>(ALT + R)</span>
+        </div>
+    </div>
+    <div class="list">
+        <table class="tbl">
+            <thead>
+                <tr>
+                    <th width="320px">Lap</th>
+                    <th width="350px">Time</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td width="350px" class="seq table-active">
+                    </td>
+                    <td width="350px" class="laps table-active">
+                    </td>
+                </tr>
+            </tbody>
+
+        </table>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>

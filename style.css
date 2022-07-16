@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Fira sans', sans-serif;
+}
+
+body {
+    background-color: #111827;
+    color: #F3F4F6;
+}
+
+.stopwatch {
+    text-align: center;
+    width: 100%;
+    max-width: 720px;
+    margin: 2rem auto 2rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+.stopwatch .time {
+    font-size: 6rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+}
+
+.controls {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls button {
+
+    width: 14%;
+    font-size: 1.2rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    opacity: 0.8;
+    color: #FFF;
+    background-color: grey;
+    transition: 0.005s;
+    user-select: none;
+
+}
+
+.controls button:hover {
+    opacity: 1;
+}
+
+#start_stop {
+    background-color: #00D000;
+}
+
+.shortcuts {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.shortcuts span {
+
+    font-size: 0.8rem;
+    margin: 0 0.5rem;
+    padding: 0.5rem 1rem;
+    opacity: 0.8;
+    color: #FFF;
+    user-select: none;
+}
+
+.tbl {
+    text-align: center;
+    background-color: #1F2937;
+    width: 100%;
+    max-width: 720px;
+    margin: 2rem auto;
+    padding: 1rem 2rem;
+    border-radius: 1rem;
+}
+
+thead,
+tbody {
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+tbody {
+    font-size: 1.2rem;
+    height: 369px;
+    overflow-y: auto;
+    overflow-x: hidden;
+}
